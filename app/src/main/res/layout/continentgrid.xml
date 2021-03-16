@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.newslive.watchnewspro.helper.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/cbg_gradient"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+
+        android:background="@drawable/continentgradient"
+        >
+
+        <ImageView
+            android:id="@+id/continentimage"
+            android:contentDescription="@string/logoiamge"
+            android:layout_width="81dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/abcnews"
+            />
+
+
+        <TextView
+            android:id="@+id/continentname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC News"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center"
+            android:textSize="16sp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+
+            />
+
+
+
+    </FrameLayout>
+
+</com.newslive.watchnewspro.helper.SquareLayout>
+
+
+
+
+
+
+
+
+
+
+

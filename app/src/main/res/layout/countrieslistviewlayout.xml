@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/clist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/channeldetailshape"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            >
+            <FrameLayout
+                android:id="@+id/cbg_gradient"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+             android:layout_gravity="center"
+                android:background="@drawable/pathgradient"
+                >
+
+
+            <ImageView
+                android:id="@+id/clist_img"
+                android:contentDescription="@string/logoiamge"
+                android:layout_width="61dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:layout_marginBottom="7dp"
+                android:src="@drawable/abcnews"
+                />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/clist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/cardview"
+            android:fontFamily="@font/latoblack"
+            android:text="United States"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_keyboard_arrow_right"
+            />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

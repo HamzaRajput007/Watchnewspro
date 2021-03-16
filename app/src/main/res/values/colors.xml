@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b4650</color>
+    <color name="dark_bg_color">#0e171a</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#A3AAA9</color>
+    <color name="colorwhite">#fff</color>
+    <color name="colorg">#DFD4D4</color>
+    <color name="transparent">#00000000</color>
+    <color name="playertext">#808080</color>
+    <color name="background">#F7EEEE</color>
+    <color name="player_topbar">#252222d4</color>
+    <color name="white">#ffffff</color>
+
+</resources>
